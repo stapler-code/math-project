@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="question.css">
+</head>
+<script src="question.js"></script>
+<body onload="load()">
+    <div id="everything">
+        <div id="question1_div">
+            <h2 style="text-align: center;">7.09 x 100</h2>
+            <input type="text" id="question1" required>
+            <button onclick="check_question1()">Next</button>
+        </div>
+        <div id="question2_div">
+            <h2 style="text-align: center;">21.54 x 0.001</h2>
+            <input type="text" id="question2" required>
+            <button onclick="check_question2()">Next</button>
+        </div>
+        <div id="question3_div">
+            <h2 style="text-align: center;">0.476 x 10</h2>
+            <input type="text" id="question3">
+            <button onclick="check_question3()">Next</button>
+        </div>
+        <div id="question4_div">
+            <h2 style="text-align: center;">4.5 ÷ 0.001</h2>
+            <input type="text" id="question4">
+            <button onclick="check_question4()">Next</button>
+        </div>
+        <div id="question5_div">
+            <h2 style="text-align: center;">7 ÷ 0.1</h2>
+            <input type="text" id="question5">
+            <button onclick="check_question5()">Next</button>
+        </div>
+        <div id="question6_div">
+            <h2 style="text-align: center;">412 ÷ 1000</h2>
+            <input type="text" id="question6">
+            <button onclick="check_question6()">Next</button>
+        </div>
+        <div id="question7_div">
+            <h2 style="text-align: center;">0.913 ÷ 20.01</h2>
+            <input type="text" id="question7">
+            <button onclick="check_question7()">Next</button>
+        </div>
+        <div id="question8_div">
+            <h2 style="text-align: center;">17.23 x 1000</h2>
+            <input type="text" id="question8">
+            <button onclick="check_question8()">Next</button>
+        </div>
+        <h3 id="score_text">Score: 0</h3>
+        <h3 id="final_text">Score: </h3>
+        <form action="index.html">
+            <button type="submit" id="restart">Restart</button>
+        </form>
+    </div>
+</body>
+</html>
